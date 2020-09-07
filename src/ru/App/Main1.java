@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main1 {
     public static void main(String[] args) {
-        System.out.println("Введите число: ");
+        System.out.println("Введите трехзначное число: ");
         Scanner scanner = new Scanner(System.in);
         int value= scanner.nextInt();
         int a = value/100;
